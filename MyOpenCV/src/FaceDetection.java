@@ -14,7 +14,7 @@ public class FaceDetection {
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
 
         // Load the classifier (make sure the path is correct)
-        CascadeClassifier faceCascade = new CascadeClassifier("C:\\Users\\kiran\\OneDrive\\Desktop\\java\\Program\\SpringBoot\\SpringProject\\SpringWeb\\MyOpenCV\\src\\resources\\haarcascade_frontalface_default.xml");
+        CascadeClassifier faceCascade = new CascadeClassifier("src/resources/haarcascade_frontalface_default.xml");
 
 
         VideoCapture cap = new VideoCapture(0);
@@ -50,3 +50,4 @@ public class FaceDetection {
         System.out.println("Video Capture Released");
     }
 }
+
