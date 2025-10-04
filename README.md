@@ -21,4 +21,4 @@ This project demonstrates how to use **OpenCV with Java** for real-time image pr
 
 ## 🎯 How to Run
 1. Install OpenCV
-2. Add native libraries to VM options:
+2. Add native libraries to VM options
